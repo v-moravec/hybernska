@@ -1,0 +1,6 @@
+.vercel
+.idea
+.nuxt
+dist
+.output
+node_modules
