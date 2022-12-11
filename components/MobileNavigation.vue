@@ -38,9 +38,9 @@ const links = [
     ref: 'prostory'
   },
   {
-    path: '/zapojit-se',
-    text: 'Zapojit se',
-    ref: 'zapojit-se'
+    path: '/zapojte-se',
+    text: 'Zapojte se',
+    ref: 'zapojte-se'
   },
 ]
 </script>
