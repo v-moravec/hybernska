@@ -1,8 +1,11 @@
 <template>
   <div class="container mx-auto pt-10">
-    <div class="p-8 bg-black text-white rounded-3xl mb-8">
-      <h2 class="mb-2">{{ project?.name }}</h2>
-      <p>{{ project?.creator }}</p>
+    <div class="p-8 bg-black text-white rounded-3xl mb-8 flex items-center justify-between">
+      <div>
+        <h2 class="mb-2">{{ project?.name }}</h2>
+        <p>{{ project?.creator }}</p>
+      </div>
+      <div class="bg-white text-black text-center rounded-full px-4 py-2">Chci se přidat</div>
     </div>
     <div class="flex gap-8">
       <div>
@@ -29,7 +32,7 @@
         <h3>Účastníci</h3>
         <div>
           <img class="rounded-xl mb-2" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=150&h=150&q=80">
-          <div class="flex items-end">
+          <div class="flex items-end mb-2">
             <p class="leading-5 font-medium">
               Radka Havranová
             </p>
