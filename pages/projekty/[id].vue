@@ -1,21 +1,24 @@
 <template>
   <div class="container mx-auto pt-10">
-    <h2>{{ project?.name }}</h2>
-    <div class="flex gap-10">
+    <div class="p-8 bg-black text-white rounded-3xl mb-8">
+      <h2 class="mb-2">{{ project?.name }}</h2>
+      <p>{{ project?.creator }}</p>
+    </div>
+    <div class="flex gap-8">
       <div>
-        <section class="py-10">
+        <section class="p-8 bg-black text-white rounded-3xl mb-8">
           <h3>O projektu</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at justo id ex faucibus viverra. Aenean consectetur massa at ultrices pellentesque. Nam id erat erat. Fusce a maximus risus. Duis mi neque, rutrum sit amet magna nec, convallis sagittis felis. Pellentesque mi tellus, aliquet vitae euismod in, vehicula in dui. Donec eu leo ligula. Suspendisse vitae diam ullamcorper, fermentum tortor et, egestas purus. Aenean ultricies arcu a pretium porta. Sed hendrerit nibh a pretium tristique. Duis eget odio ut purus congue gravida.
           </p>
         </section>
-        <section class="py-10">
+        <section class="p-8 bg-black text-white rounded-3xl my-8">
           <h3>Průběh</h3>
           <p>
             Suspendisse dignissim diam quis ligula varius hendrerit. Proin ante mauris, blandit eget interdum nec, vestibulum ac metus. Duis in ante efficitur diam euismod sagittis. In at purus magna. Donec sit amet purus erat. Quisque ultrices accumsan eros, id tristique eros congue vitae. Proin ut ante non elit pretium tempor et et ex.
           </p>
         </section>
-        <section class="py-10">
+        <section class="p-8 bg-black text-white rounded-3xl my-8">
           <h3>Výsledky</h3>
           <p>
             Donec cursus lobortis augue non facilisis. Vivamus arcu ex, venenatis vitae tristique vel, pharetra vitae nisl. Pellentesque vel mauris quis ex tristique mattis. Aenean viverra mi ac urna mollis dapibus. Aenean id egestas dolor. Phasellus vitae congue turpis. Morbi tincidunt massa et diam euismod ullamcorper. Donec sagittis volutpat elit id tempus. Suspendisse id ex non lectus auctor porttitor.

@@ -1,9 +1,13 @@
 <template>
   <div class="container mx-auto pt-10 pb-10">
-    <h2>O nás</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at justo id ex faucibus viverra. Aenean consectetur massa at ultrices pellentesque. Nam id erat erat. Fusce a maximus risus. Duis mi neque, rutrum sit amet magna nec, convallis sagittis felis. Pellentesque mi tellus, aliquet vitae euismod in, vehicula in dui. Donec eu leo ligula. Suspendisse vitae diam ullamcorper, fermentum tortor et, egestas purus. Aenean ultricies arcu a pretium porta. Sed hendrerit nibh a pretium tristique. Duis eget odio ut purus congue gravida.
-    </p>
+    <div class="p-8 bg-black text-white rounded-3xl">
+      <h2>O nás</h2>
+      <p>
+        Kampus Hybernská je centrem kultury, inovací, vědy a vzdělávání. Je určen pro setkávání studentů, umělců, vědců, výzkumníků,
+        kreativců a inovátorů  s občanskou veřejností a aplikační sférou hlavního města Prahy. Kampus Hybernská vznikl propojením
+        hlavního města Prahy a Univerzity Karlovy s cílem založení společného projektu pro rozvoj intenzivnější spolupráce.
+      </p>
+    </div>
   </div>
 </template>
 
