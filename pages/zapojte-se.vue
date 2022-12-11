@@ -1,12 +1,12 @@
 <template>
   <div class="container mx-auto pt-10">
     <div class="p-8 mb-8 bg-black text-white rounded-3xl">
-      <h2>Zapojte se</h2>
+      <h2>Zapojte se 🚀</h2>
       <p class="mb-4">
         Zaujal vás některý z projektů a chtěli byste se v něm angažovat? Máte zájem si vyzkoušet práci v týmu složeném z lidí různých oborů a zaměření? Nebo máte nějaký skvělý nápad a chtěli byste jej zrealizovat?
       </p>
       <p class="mb-4">
-        Pojďte s námi ukázat váš potenciál, získat další nové zkušenosti i kontakty a připsat si další řádek do vašeho CV. :)
+        Pojďte s námi ukázat váš potenciál, získat další nové zkušenosti i kontakty a připsat si další řádek do vašeho CV. 😉
       </p>
       <p>
         V tomto článku se dozvíte, co po vás všechno požadujeme. Ať už se chcete stát členem týmu, nebo zadat svůj projekt. Konkrétní požadavky pak naleznete na stránkách jednotlivých projektů.
