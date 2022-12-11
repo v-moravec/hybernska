@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto pt-10">
     <div class="p-8 bg-black text-white rounded-3xl sm:flex items-center justify-between mb-8">
-      <h2 class="mb-0">Seznam projektů</h2>
+      <h2 class="mb-0">Projekty 💡</h2>
       <NuxtLink class="bg-white text-black py-2 px-4 h-min rounded-full" to="/projekty/pridat">Přidat projekt</NuxtLink>
     </div>
     <div class="grid md:grid-cols-2 xl:grid-cols-3 w-fit gap-4 mx-auto">
