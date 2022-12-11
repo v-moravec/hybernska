@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto pt-10">
+  <div class="container mx-auto pt-8">
     <div class="mx-auto w-96 max-w-full p-8 bg-black text-white rounded-3xl my-8">
       <h2>Přidat projekt</h2>
       <div class="flex flex-col gap-3">
