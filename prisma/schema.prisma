@@ -15,5 +15,8 @@ model Project {
   id String @id @default(cuid())
 
   name String
+  creator String
   description String
+  state String
+  picture String
 }

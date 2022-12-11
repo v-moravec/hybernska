@@ -1,6 +1,9 @@
 <template>
   <div class="container mx-auto pt-10">
-    <h2>Seznam projektů</h2>
+    <div class="sm:flex justify-between mb-10">
+      <h2>Seznam projektů</h2>
+      <NuxtLink class="bg-black text-white py-2 px-4 h-min rounded-full" to="/projekty/pridat">Přidat projekt</NuxtLink>
+    </div>
     <div class="grid md:grid-cols-2 xl:grid-cols-3 w-fit gap-4 mx-auto pt-4">
       <NuxtLink v-for="project in projects" :key="project.id" :to="`projekty/${project.id}`" class="w-full max-h-80 relative overflow-hidden rounded-xl">
         <img class="w-full object-cover object-top" :src="project.image">
